@@ -1,0 +1,32 @@
+header.header
+    nav.nav.nav--tours
+        a.nav__el(href='/') SHOP
+    .header__logo
+        img(src="/img/logo.png", alt="Logo")
+    nav.nav.nav--user
+        if user
+            a.nav__el.nav__el--logout Log out
+            a.nav__el(href='/me')
+                img.nav__user-img(src=`${user.photo}`, alt=`${user.name} photo`)
+                span= user.name.split(' ')[0]
+            - const cart = user.carts[0]
+            a.nav__el.nav__el--cart
+                svg.nav__el--cart-icon
+                    use(xlink:href="/img/sprite.svg#icon-shopping-bag")
+                span.nav__el--cart-text=`${cart ? cart.numberOfProducts : 0}`
+            .cart-dropdown.hide
+                    .cart-items
+                        if cart && cart.cartItems.length > 0
+                            each cartItem in cart.cartItems
+                                .cart-item
+                                    img(src=`${cartItem.product.imageCover}`, alt="cart-image")
+                                    .item-details
+                                        span.name=`${cartItem.product.name}`
+                                        span.price=`${cartItem.product.price} X ${cartItem.quantity}`
+                    button.btn.btn-checkout.btn--dark-pink Checkout
+        else
+            a.nav__el(href='/login') Log in
+            a.nav__el.nav__el--cta(href='/signup') Sign up
+        
+
+        

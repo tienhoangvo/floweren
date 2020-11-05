@@ -1,0 +1,69 @@
+extends base
+include _reviewCard
+
+//- block append head
+    
+
+mixin overviewBox(label, text, icon)
+    .overview-box__detail
+        svg.overview-box__icon
+            use(xlink:href=`/img/sprite.svg#icon-${icon}`)
+        span.overview-box__label= label
+        span.overview-box__text= text
+
+block content
+    section.section-header
+        .header__hero
+            .header__hero-overlay &nbsp;
+            img.header__hero-img(src=`${product.imageCover}`, alt=`${product.name}`)
+
+        .heading-box
+            h1.heading-primary
+                span= product.name
+            .heading-box__group
+                .heading-box__detail
+                    svg.heading-box__icon
+                        use(xlink:href='/img/sprite.svg#icon-leaf')
+                    span.heading-box__text #{product.quantity} products
+                .heading-box__detail
+                    svg.heading-box__icon
+                        use(xlink:href='/img/sprite.svg#icon-leaf')
+                    span.heading-box__text FREE SHIPPING
+
+    section.section-description
+        .overview-box
+            div
+                .overview-box__group
+                    h2.heading-secondary.ma-bt-lg Information
+                    +overviewBox('Created at', product.createdAt.toLocaleDateString('en-US', {month: 'long', year: 'numeric'}), 'leaf')
+                    +overviewBox('Sold products', product.soldQuantity, 'leaf')
+                    +overviewBox('No.Ratings', `${product.numberOfRatings} rating`, 'leaf')
+                    +overviewBox('Rating', `${product.avgRatings} / 5`, 'leaf')
+        .description-box
+            h2.heading-secondary.ma-bt-lg About #{product.name} product
+            p.description__text= `${product.description.slice(0, 200)}...`
+
+    section.section-pictures
+        each image, index in product.images
+            .picture-box
+                img.picture-box__img(src=`${image}`, alt=`${product.name} product ${index + 1}`, class=`picture-box__img--${index + 1}`)
+    if (product.reviews.length > 0)
+        section.section-reviews
+            .reviews
+                each review in product.reviews
+                    +reviewCard(review)
+
+    section.section-cta
+        .cta
+            .cta__img.cta__img--logo
+                img(src='/img/logo.png', alt='Floweren logo')
+            img.cta__img.cta__img--1(src=`${product.images[1]}`, alt=`${product.name}-2`)
+            img.cta__img.cta__img--2(src=`${product.images[0]}`, alt=`${product.name}-1`)
+            .cta__content
+                h2.heading-secondary What are you waiting for?
+                - const message = (product.discount > 0) ? `${product.discount} % discount and freeship today. Stop hesitating. Express it now!` : 'Freeship today. Stop hesitating. Express it now!';
+                p.cta__text= message
+                if user
+                    button.btn.btn--dark-pink.span-all-rows#add-to-cart(data-product-id=`${product.id}`) Add to cart
+                else
+                    a.btn.btn--dark-pink.span-all-rows(href='/login') Login in to buy

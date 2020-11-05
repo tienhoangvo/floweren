@@ -1,0 +1,27 @@
+doctype html
+html
+    head
+        block head
+            meta(http-equiv="Content-Type", content="text/html;charset=UTF-8")
+            meta(name="viewport", content="width=device-width, initial-scale=1.0")
+            link(rel="stylesheet", href="/css/style.css")
+            link(rel="shortcut icon", href="/img/favicon-32x32.png", type="image/x-icon")
+            link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap")
+            script(src="https://js.stripe.com/v3/")
+            title FLOWEREN | #{title}
+    body(data-alert=`${alert ? alert : ''}`)
+        // HEADER
+        include _header
+
+        //CONTENT
+        block content
+            h1 This is a placeholder heading
+        
+        //FOOTER
+        include _footer
+        
+        //- script(src="https://unpkg.com/axios/dist/axios.min.js")
+        //- script(src="/js/login.js")
+        //- script(src="/js/mapbox.js")
+        script(src="/js/bundle.js")
+        

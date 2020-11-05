@@ -1,0 +1,28 @@
+extends base
+mixin navItem(link, text, icon)
+    li(class=`${title.includes(text) ? 'side-nav--active' : ''}`)
+        a(href=`${link}`)
+            svg
+                use(xlink:href=`img/sprite.svg#icon-${icon}`)
+            | #{text}
+block content
+    main.main
+        .user-view
+            nav.user-view__menu
+                ul.side-nav
+                    +navItem('/me', 'Account settings', 'cog')
+                    +navItem('/my-cart', 'My cart', 'shopping-bag')
+                    +navItem('/my-orders', 'My orders', 'paper-plane')
+                    +navItem('/my-reviews', 'My reviews', 'star')
+                - if (user.role === 'admin')
+                    .admin-nav
+                        h5.admin-nav__heading Admin
+                        ul.side-nav
+                            +navItem('#', 'Manage products', 'leaf')
+                            +navItem('#', 'Manage users', 'users')
+                            +navItem('#', 'Manage categories', 'leaf')
+                            +navItem('#', 'Manage reviews', 'star')
+                            +navItem('#', 'Manage orders', 'paper-plane')
+                    
+            .user-view__content
+                block user-view__content

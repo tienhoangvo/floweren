@@ -1,0 +1,21 @@
+extends account
+block user-view__content
+    -const orders = user.orders
+    .user-view__orders-container
+        h2.heading-secondary.ma-bt-md My orders
+
+        table.list-of-my-orders
+            tr.order
+                th.order__amount Amount
+                th.order__createdAt Created at
+                th.order__status Status 
+                th.order__paymentStatus Payment status
+                th.order__shipmentStatus Shippment status
+            if orders.length > 0
+                each order in orders
+                    tr.order
+                        td.order__amount=order.amount
+                        td.order__createdAt=order.createdAt.toLocaleDateString('en-US', {weekday: 'long', day: 'numeric',month: 'long', year: 'numeric'})
+                        td.order__status=order.status
+                        td.order__paymentStatus=order.paymentStatus
+                        td.order__shipmentStatus=order.shipmentStatus

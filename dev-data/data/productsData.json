@@ -1,0 +1,179 @@
+[
+  {
+    "_id": "5f0d6de142f739fd9f6215ad",
+    "category": "5f0d647062ff54410abaed36",
+    "name": "Majesty Palm",
+    "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.",
+    "price": 259,
+    "quantity": 500,
+    "imageCover": "/img/products/shop-14-img.jpg",
+    "images": [
+      "/img/products/shop-14-gallery-1.jpg",
+      "/img/products/shop-14-gallery-2.jpg",
+      "/img/products/shop-14-gallery-3.jpg",
+      "/img/products/shop-14-gallery-4.jpg"
+    ]
+  },
+  {
+    "_id": "5f0d6d8a31ada25437db72b4",
+    "category": "5f0d65784b87292c92acdaa1",
+    "name": "Foxglove Flower",
+    "description": "Donec semper eu sapien vitae accumsan. Donec congue lacus facilisis, tincidunt ante et, ullamcorper ex. Cras commodo magna velit, id euismod odio ullamcorper non. Curabitur placerat sit amet enim at facilisis.",
+    "price": 259,
+    "quantity": 700,
+    "imageCover": "/img/products/shop-13-img.jpg",
+    "images": [
+      "/img/products/shop-13-gallery-1.jpg",
+      "/img/products/shop-13-gallery-2.jpg",
+      "/img/products/shop-13-gallery-3.jpg",
+      "/img/products/shop-13-gallery-4.jpg"
+    ]
+  },
+  {
+    "_id": "5f0d6abc888fabeca15842bb",
+    "category": "5f0d647062ff54410abaed36",
+    "name": "Sweet Alyssum",
+    "description": "Sed sit amet facilisis velit, sit amet molestie neque. Integer tempor accumsan mollis. Mauris accumsan sollicitudin tellus sed sollicitudin. Proin eu tellus ullamcorper velit lobortis lacinia nec sit amet nisi. Donec posuere interdum purus id aliquet. Mauris lobortis mattis mi, ac congue magna porttitor eu.",
+    "price": 259,
+    "quantity": 500,
+    "imageCover": "/img/products/shop-10-img.jpg",
+    "images": [
+      "/img/products/shop-10-gallery-1.jpg",
+      "/img/products/shop-10-gallery-2.jpg",
+      "/img/products/shop-10-gallery-3.jpg",
+      "/img/products/shop-10-gallery-4.jpg"
+    ]
+  },
+  {
+    "_id": "5f0d6a1ffae569cfe7720823",
+    "category": "5f0d6490f89f7953892e9f0f",
+    "name": "Spring Snowflake",
+    "description": "Morbi at sagittis tortor, sit amet sollicitudin nunc. Vestibulum malesuada porttitor dui, ut egestas lorem pulvinar sit amet. Nunc quis sagittis odio, id hendrerit mi. Mauris tincidunt massa id condimentum convallis. Sed sollicitudin in lorem sit amet lobortis. Fusce mollis ipsum vel ante varius imperdiet.",
+    "price": 170,
+    "quantity": 400,
+    "imageCover": "/img/products/shop-11-img.jpg",
+    "images": [
+      "/img/products/shop-11-gallery-1.jpg",
+      "/img/products/shop-11-gallery-2.jpg",
+      "/img/products/shop-11-gallery-3.jpg",
+      "/img/products/shop-11-gallery-4.jpg"
+    ]
+  },
+  {
+    "_id": "5f0d6a0299355ec94889f5b7",
+    "category": "5f0d64fb14ad190927dcae20",
+    "name": "Scarlet Sage",
+    "description": "Vestibulum id sem mi. Sed consequat dictum risus, eget feugiat mi vestibulum at. Maecenas enim libero, dictum eget ornare ut, mattis eget risus. Maecenas facilisis iaculis erat ac pellentesque. Donec malesuada sem at velit feugiat tempor. Morbi mollis pretium auctor. Nunc efficitur tincidunt risus. Nam tempus blandit ultricies.",
+    "price": 159,
+    "quantity": 400,
+    "imageCover": "/img/products/shop-12-img.jpg",
+    "images": [
+      "/img/products/shop-12-gallery-1.jpg",
+      "/img/products/shop-12-gallery-2.jpg",
+      "/img/products/shop-12-gallery-3.jpg",
+      "/img/products/shop-12-gallery-4.jpg"
+    ]
+  },
+  {
+    "_id": "5f0d698151773b63d3920901",
+    "category": "5f0d647062ff54410abaed36",
+    "name": "Wild Roses",
+    "description": "Morbi congue euismod dui, vitae viverra justo placerat vitae. Aliquam nec ultrices mauris. Mauris et tristique mi. Nam nec dapibus dolor. Curabitur volutpat magna diam. Aenean nec ullamcorper urna. Morbi fermentum facilisis libero, vitae dictum neque pulvinar a. Nunc sed dolor sollicitudin, fringilla leo et, viverra sapien.",
+    "price": 300,
+    "quantity": 500,
+    "imageCover": "/img/products/shop-7-img.jpg",
+    "images": [
+      "/img/products/shop-7-gallery-1.jpg",
+      "/img/products/shop-7-gallery-2.jpg",
+      "/img/products/shop-7-gallery-3.jpg",
+      "/img/products/shop-7-gallery-4.jpg"
+    ]
+  },
+  {
+    "_id": "5f0d6db4ba1ff301ae56e343",
+    "category": "5f0d647062ff54410abaed36",
+    "name": "Rock Soapwort",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet condimentum pellentesque. Nullam nec tortor scelerisque, interdum metus eu, fringilla libero. Mauris pharetra mauris arcu, id iaculis erat condimentum sit amet. Praesent auctor justo in risus lacinia, non ullamcorper mauris viverra.",
+    "price": 200,
+    "quantity": 100,
+    "imageCover": "/img/products/shop-9-img.jpg",
+    "images": [
+      "/img/products/shop-9-gallery-1.jpg",
+      "/img/products/shop-9-gallery-2.jpg",
+      "/img/products/shop-9-gallery-3.jpg",
+      "/img/products/shop-9-gallery-4.jpg"
+    ]
+  },
+  {
+    "_id": "5f0d6619713a70fda6ee74c1",
+    "category": "5f0d647062ff54410abaed36",
+    "name": "Summer Savory",
+    "price": 400,
+    "quantity": 400,
+    "imageCover": "/img/products/shop-8-img.jpg",
+    "images": [
+      "/img/products/shop-8-gallery-1.jpg",
+      "/img/products/shop-8-gallery-2.jpg",
+      "/img/products/shop-8-gallery-3.jpg",
+      "/img/products/shop-8-gallery-4.jpg"
+    ]
+  },
+  {
+    "_id": "5f0d68a0316429114c905aaf",
+    "category": "5f0d653966657c34961d2632",
+    "name": "Orange Amaryllis",
+    "price": 475,
+    "description": "Vestibulum non eros tortor. Vestibulum et ipsum justo. Sed a ex arcu. Fusce iaculis sollicitudin elementum. Etiam volutpat at tortor sed viverra. Integer non semper lectus. Nullam commodo sem eu porta volutpat. Suspendisse lacus sem, bibendum vel pretium quis, fringilla et est. Proin sit amet magna finibus augue efficitur mollis.",
+    "quantity": 200,
+    "imageCover": "/img/products/shop-2-img.jpg",
+    "images": [
+      "/img/products/shop-2-gallery-1.jpg",
+      "/img/products/shop-2-gallery-2.jpg",
+      "/img/products/shop-2-gallery-3.jpg",
+      "/img/products/shop-2-gallery-4.jpg"
+    ]
+  },
+  {
+    "_id": "5f0d6827fd977fb9222ff542",
+    "category": "5f0d653966657c34961d2632",
+    "name": "Cactus In Orange",
+    "price": 340,
+    "description": "Cras iaculis sodales posuere. Proin at imperdiet magna, vel lobortis leo. Donec non eros nisl. In elementum et sapien elementum porttitor. Maecenas vel commodo lorem.",
+    "quantity": 400,
+    "imageCover": "/img/products/shop-3-img.jpg",
+    "images": [
+      "/img/products/shop-3-gallery-1.jpg",
+      "/img/products/shop-3-gallery-2.jpg",
+      "/img/products/shop-3-gallery-3.jpg",
+      "/img/products/shop-3-gallery-4.jpg"
+    ]
+  },
+  {
+    "_id": "5f195ed87326aa5c77ce8d01",
+    "category": "5f0d653966657c34961d2632",
+    "name": "Wild Cactus",
+    "price": 159,
+    "description": "Cras iaculis sodales posuere. Proin at imperdiet magna, vel lobortis leo. Donec non eros nisl. In elementum et sapien elementum porttitor. Maecenas vel commodo lorem.",
+    "quantity": 400,
+    "imageCover": "/img/products/shop-5-img.jpg",
+    "images": [
+      "/img/products/shop-5-gallery-1.jpg",
+      "/img/products/shop-5-gallery-2.jpg"
+    ]
+  },
+  {
+    "_id": "5f195f7863fcc7cd0cdbfe39",
+    "category": "5f0d653966657c34961d2632",
+    "name": "Colorful Tulips",
+    "price": 350,
+    "description": "Suspendisse euismod condimentum felis ac faucibus. Etiam scelerisque gravida nisl, non feugiat ligula facilisis ac. Maecenas quis justo quis dui rutrum semper. Aenean cursus egestas lobortis. Nunc dolor diam, ullamcorper nec tortor eu, ornare sollicitudin massa. Maecenas lacus quam, dictum sit amet consectetur at, aliquam sed diam.",
+    "quantity": 400,
+    "imageCover": "/img/products/shop-6-img.jpg",
+    "images": [
+      "/img/products/shop-6-gallery-1.jpg",
+      "/img/products/shop-6-gallery-2.jpg",
+      "/img/products/shop-6-gallery-3.jpg",
+      "/img/products/shop-6-gallery-4.jpg"
+    ]
+  }
+]

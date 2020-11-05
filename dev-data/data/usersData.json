@@ -1,0 +1,112 @@
+[
+  {
+    "_id": "5f0d5c1cb1ff2ef5eee26833",
+    "name": "Vo Hoang Tien",
+    "email": "tienhoangvo.dev@gmail.com",
+    "role": "admin",
+    "phone": "0947130927",
+    "address": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fames ac turpis egestas maecenas pharetra convallis posuere morbi leo.",
+    "city": "Can Tho",
+    "password": "alwaysandforever",
+    "passwordConfirm": "alwaysandforever"
+  },
+  {
+    "_id": "5f0d5dffec6d5ea3bc538f66",
+    "name": "Klaus Mikaelson",
+    "email": "klaus@employee.com",
+    "role": "employee",
+    "phone": "0927130926",
+    "address": "Purus viverra accumsan in nisl nisi scelerisque eu. Porta lorem mollis aliquam ut porttitor leo a.",
+    "city": "New Orlean",
+    "password": "alwaysandforever",
+    "passwordConfirm": "alwaysandforever"
+  },
+  {
+    "_id": "5f0d5ed17e8c978b02cb1ce6",
+    "name": "Elijah Mikaelson",
+    "email": "elijah@customer.com",
+    "role": "customer",
+    "phone": "0939492917",
+    "address": "Placerat orci nulla pellentesque dignissim enim sit. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque.",
+    "city": "New Orlean",
+    "password": "alwaysandforever",
+    "passwordConfirm": "alwaysandforever"
+  },
+  {
+    "_id": "5f0d5f94f7f0fe9e4a9c6a5c",
+    "name": "Rebekah Mikaelson",
+    "email": "rebekah@customer.com",
+    "role": "customer",
+    "phone": "0917264637",
+    "address": "Nunc pulvinar sapien et ligula ullamcorper. Auctor elit sed vulputate mi sit amet mauris commodo.",
+    "city": "New Orlean",
+    "password": "alwaysandforever",
+    "passwordConfirm": "alwaysandforever"
+  },
+  {
+    "_id": "5f0d60696a62a3324147c670",
+    "name": "Hope Mikaelson",
+    "email": "hope@employee.com",
+    "role": "employee",
+    "phone": "0939294973",
+    "address": "Laoreet id donec ultrices tincidunt. Iaculis urna id volutpat lacus laoreet.",
+    "city": "Mystic Fall",
+    "password": "alwaysandforever",
+    "passwordConfirm": "alwaysandforever"
+  },
+  {
+    "_id": "5f0d61008f3aa01ef7139463",
+    "name": "Hayley Marshall",
+    "email": "haylee@customer.com",
+    "role": "customer",
+    "phone": "0123467830",
+    "address": "Neque aliquam vestibulum morbi blandit cursus risus at ultrices mi. Volutpat odio facilisis mauris sit amet.",
+    "city": "New Orlean",
+    "password": "alwaysandforever",
+    "passwordConfirm": "alwaysandforever"
+  },
+  {
+    "_id": "5f0d619880aecb02babdb755",
+    "name": "Damon Salvatore",
+    "email": "damon@customer.com",
+    "role": "customer",
+    "phone": "0949112373",
+    "address": "Nullam eget felis eget nunc lobortis. Tellus id interdum velit laoreet id donec ultrices.",
+    "city": "Mystic Fall",
+    "password": "alwaysandforever",
+    "passwordConfirm": "alwaysandforever"
+  },
+  {
+    "_id": "5f0d621c32b3706c5e2889c1",
+    "name": "Stefan Salvatore",
+    "email": "stefan@customer.com",
+    "role": "customer",
+    "phone": "0949112374",
+    "address": "Nullam eget felis eget nunc lobortis. Tellus id interdum velit laoreet id donec ultrices.",
+    "city": "Mystic Fall",
+    "password": "alwaysandforever",
+    "passwordConfirm": "alwaysandforever"
+  },
+  {
+    "_id": "5f0d62feebcc0633527429f6",
+    "name": "Lizzie Saltzman",
+    "email": "lizzie@customer.com",
+    "role": "customer",
+    "phone": "0949112375",
+    "address": "Nullam eget felis eget nunc lobortis. Tellus id interdum velit laoreet id donec ultrices.",
+    "city": "Mystic Fall",
+    "password": "alwaysandforever",
+    "passwordConfirm": "alwaysandforever"
+  },
+  {
+    "_id": "5f0d636b81427f587aced9a5",
+    "name": "Josie Saltzman",
+    "email": "josie@customer.com",
+    "role": "customer",
+    "phone": "0949112378",
+    "address": "Nullam eget felis eget nunc lobortis. Tellus id interdum velit laoreet id donec ultrices.",
+    "city": "Mystic Fall",
+    "password": "alwaysandforever",
+    "passwordConfirm": "alwaysandforever"
+  }
+]
