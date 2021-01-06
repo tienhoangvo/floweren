@@ -17,7 +17,7 @@
     "@babel/polyfill": "^7.10.1",
     "@material/checkbox": "^7.0.0",
     "@material/form-field": "^7.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "cloudinary": "^1.22.0",
     "compression": "^1.7.4",
